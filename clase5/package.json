@@ -1,0 +1,17 @@
+{
+  "name": "clase5",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "wilson sanchez",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/simple-decorators.js",
+    "starte": "tsc && node dist/with-reflect-metadata.js"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  }
+}
